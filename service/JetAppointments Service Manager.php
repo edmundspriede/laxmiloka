@@ -798,11 +798,7 @@ class JetAppointmentsServiceManager {
         </style>
         
         <div class="jet-services-list">
-            <div class="jet-form-header">
-                <h2> Services List</h2>
-                <p>Manage your appointment services</p>
-            </div>
-            
+                       
             <?php if (empty($services)): ?>
                 <div class="jet-service-card">
                     <p>No services found. <a href="#" onclick="location.reload()">Refresh</a> or create a new service.</p>
